@@ -1,0 +1,96 @@
+:root{
+    /* variaveis css */
+    --color-primary-1: #69C7FF; 
+    --color-primary0: #328CC1; 
+    --color-primary1: #25688F; 
+    --color-secondary-1: #FFB769; 
+    --color-secondary0: #D47208; 
+    --color-secondary1: #8F5C25; 
+    --color-light: #E1E1E1; 
+    --color-dark0: #979797; 
+    --color-dark1: #767373; 
+    --color-success: #D5FACC; 
+    --color-danger: #FAC9C9; 
+
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html,
+#image-header{
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem;
+    flex-wrap: wrap;
+}
+
+#container img{
+    height: 4.8rem;
+    width: 13.6rem;
+}
+
+#container .button-1{
+    color: #fff; 
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 154.4%;
+
+    border-radius: 0.4rem;
+    background: var(--color-primary1);
+    padding: 1.6rem;
+}
+
+#container .button-1:hover{
+    cursor: pointer;
+    background: var(--color-primary0);
+}
+
+#image-header .titulo{
+    margin-top: 14rem;
+}
+#image-header .titulo h1{
+    display: flex;
+    justify-content: right;
+    width: 41.6rem;
+    margin: 0 50%;
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 4.1rem;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#image-header .titulo h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
+
+    margin-top: 3rem;
+}
+
+
+
+#image-header{
+    background: url("../images/background.png");
+}
+
