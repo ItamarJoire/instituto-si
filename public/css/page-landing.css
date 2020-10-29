@@ -1,0 +1,87 @@
+
+#page-landing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    position: relative;
+    top: 12%
+}
+
+#page-landing #login{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+
+    padding: 16rem 4rem 8rem 4rem;
+}
+
+#page-landing #login #button-cadastro{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+
+    width: 37.2rem;
+    height: 4.6rem;
+
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+
+    background: #3B4151;
+
+    margin-bottom: 10rem;
+}
+
+#page-landing #login #form-login form .forms::placeholder{
+    font-size: 1.6rem;
+    color: rgba(59, 65, 81, 0.4);
+}
+
+#page-landing #login #form-login form .forms{
+    width: 42.0rem;
+    height: 5rem;
+    
+    border: 1px solid #DCE2F2;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    padding-left: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+#page-landing #login #button-logar{
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: white;
+
+    width: 22.8rem;
+    height: 5.7rem;
+
+    border: none;
+    border-radius: 32px;
+
+    background: linear-gradient(0deg, #3C97F5 -56.25%, rgba(0, 0, 0, 0) 100%), #3C97F5;
+    
+   
+    margin-top: 4rem;
+}
+
+#page-landing #login p{
+    margin-top: 1.4rem;
+}
+
+#page-landing #login p a{
+    font-size: 1.4rem;
+    color: rgba(59, 65, 81, 0.6);
+
+    text-decoration: none;
+
+}
+
+#page-landing #login p a:hover{
+    color: #9BC3ED;
+}

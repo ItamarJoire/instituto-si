@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    
+    /* background-image: linear-gradient(to right top, #3c97f5, #4780c9, #486a9f, #445577, #3b4151); */
+
+    font-family: 'Nunito', sans-serif;
+}
+
+body, input, button, textarea{
+
+
+    /* font: 400 1.8rem/1 'Nunito', sans-serif;  Unificação das linhas acima em uma única linha */
+}
+
