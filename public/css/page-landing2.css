@@ -111,8 +111,9 @@
 }
 
 #page-landing #login #button-logar:hover{
-    
     cursor: pointer;
+
+     background: #3533a5;
 }
 
 #page-landing #login p{
