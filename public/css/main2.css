@@ -2,21 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-  
 }
 
-html{
+:root{
     font-size: 62.5%;
 }
 
-/* body{
-    font-size: 1.6rem;
-} */
 
 html, 
 body{
     height: 100vh;
-
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }
