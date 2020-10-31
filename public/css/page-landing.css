@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     
-    padding: 3rem 10rem  0 10rem;
+    padding: 3rem 10rem 0 10rem;
 }
 
 #header-main h1{
@@ -30,6 +30,7 @@
 #header-main a:hover{
    text-decoration: underline;
 }
+
 
 #page-landing{    
     max-width: 480px;
@@ -85,6 +86,12 @@
     font-size: 1.2rem;
     color: rgba(59, 65, 81, 0.4);
 }
+#page-landing #login #button-logar a{
+    color: white;
+    text-decoration: none;
+
+    border: none;
+}
 
 #page-landing #login #button-logar{
     font-size: 1.6rem;
@@ -92,8 +99,6 @@
 
     letter-spacing: .1em;
   
-    color: white;
-
     border: none;
     border-radius: 2px;
 
