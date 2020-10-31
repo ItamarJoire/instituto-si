@@ -1,57 +1,75 @@
 
-#page-landing {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-#page-landing #login{
+#page-landing{    
     background: #FFFFFF;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
 
     padding: 16rem 4rem 8rem 4rem;
+
+    max-width: 680px;
+    width: 80%;
+    margin: auto;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#page-landing #login{
+    display: flex;
+    flex-direction: column;
 }
 
 #page-landing #login #button-cadastro{
     font-size: 1.4rem;
     font-weight: 700;
     color: white;
-
-    width: 30.2rem;
-    height: 4.6rem;
-
     text-transform: uppercase;
     border: none;
     border-radius: 16px;
 
+    max-width: 20rem;
+    width: 30vw;
+    height: 3rem;
+    
+    margin: auto;
     background: #3B4151;
 
     margin-bottom: 10rem;
 
     transition: background 200ms;
-}
+    
+} 
 
 #page-landing #login #button-cadastro:hover{
     background: #252A36;
     cursor: pointer;
 }
 
-#page-landing #login #form-login form .forms::placeholder{
-    font-size: 1.2rem;
-    color: rgba(59, 65, 81, 0.4);
+
+#page-landing form{
+    max-width: 90rem;
+    width: 60%;
+    margin: auto;
 }
 
-#page-landing #login #form-login form .forms{
-    width: 40.0rem;
-    height: 4rem;
-    
+#page-landing form .forms{
     border: 1px solid #DCE2F2;
     box-sizing: border-box;
     border-radius: 4px;
 
+    max-width: 90rem;
+    width: 100%;
+    height: 2.2rem;
+
     padding-left: 1rem;
     margin-bottom: 1.2rem;
+}
+
+#page-landing #login form .forms::placeholder{
+    font-size: 1.2rem;
+    color: rgba(59, 65, 81, 0.4);
 }
 
 #page-landing #login #button-logar{
@@ -62,13 +80,15 @@
     text-transform: uppercase;
     color: white;
 
-    width: 18rem;
-    height: 5rem;
-
     border: none;
     border-radius: 32px;
 
-    background-image: linear-gradient(to right top, #3c97f5, #4780c9, #486a9f, #445577, #3b4151);
+    max-width: 14rem;
+    width: 30%;
+    margin: auto;
+    padding: 1rem 0 1rem 0;
+
+    background:skyblue;
 
     
     margin-top: 4rem;
@@ -82,6 +102,10 @@
 }
 
 #page-landing #login p{
+    max-width: 11rem;
+    width: 20%;
+    margin: auto;
+
     margin-top: 1.4rem;
 }
 
@@ -90,9 +114,12 @@
     color: rgba(59, 65, 81, 0.6);
 
     text-decoration: none;
-
 }
 
 #page-landing #login p a:hover{
     color: #9BC3ED;
+}
+
+@media (max-width: 768px){
+    
 }
