@@ -25,17 +25,21 @@
         <header id="login">
             <h1>Seja Bem-vindo</h1>
     
-            <form>
-                <input class="forms" 
+            <form action="" id="send">
+                <input class="forms"
+                name="cpf" 
                 type="text" 
-                placeholder="Cpf">
+                placeholder="Cpf" 
+                required>
                 <br>
-                <input class="forms" 
+                <input class="forms"
+                name="senha" 
                 type="text" 
-                placeholder="Senha">
+                placeholder="Senha"
+                required>
             </form>
         
-            <button id="button-logar"><a href="./student.html" target="blank_">Entrar</a></button>
+            <button type="submit" form="send" id="button-logar"><a href="./students.html" target="blank_">Entrar</a></button>
             <p><a href="#">Esqueceu sua senha?</a></p>
         </header>
 

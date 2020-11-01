@@ -91,6 +91,10 @@
 
 }
 
+#page-landing form .forms:valid{
+    border: 1px solid #a1e9c5;
+}
+
 #page-landing #login form .forms::placeholder{
     font-size: 1.2rem;
     color: rgba(59, 65, 81, 0.4);

@@ -9,7 +9,7 @@
   
     <link rel="stylesheet" href="./public/css/main.css" />
     
-    <link rel="stylesheet" href="./public/css/page-student.css" />
+    <link rel="stylesheet" href="./public/css/page-students.css" />
     <link rel="stylesheet" href="./public/css/buttons.css" />
     
   
@@ -21,7 +21,7 @@
         <header>
           <h1>Informação dos alunos</h1>
            
-          <ul>
+          <!-- <ul>
             <li class="adicionar acoes">
               <a href="#">Adicionar</a>
             </li>
@@ -33,7 +33,24 @@
             <li class="excluir acoes">
               <a href="#">Excluir</a>
             </li>
-          </ul>
+          </ul> -->
+          <div class="buttons-acoes">
+            <button 
+              class="adicionar acoes" 
+              type="button"
+              onclick="addNewField()">
+              
+                Adicionar
+            </button>
+
+            <button class="editar acoes" type="button">
+              Editar
+            </button>
+
+            <button class="excluir acoes" type="button">
+            Excluir
+            </button>
+         </div>
         </header>
 
         <main class="secao-alunos">
@@ -45,7 +62,7 @@
               <th>Notas</th>
               <th>CR</th>
             </tr>
-
+            
             <tr>
               <td class="name-form"><a href="#" title="Clique para ver as informações do aluno">Pedro</a></td>
               <td>********</td>
@@ -86,8 +103,17 @@
               <td>7.1</td>
               <td>8.0</td>
             </tr>
-     
+            
+            <tr hidden class="create-one-student">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
         </main>
       </div>
+
+      <script src="./public/scripts/page-students.js"></script>
   </body>
 </html>

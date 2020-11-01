@@ -35,8 +35,8 @@
      background: #3533a5;
 }
 
-/* Buttons student.html */
-#header-main header ul{
+/* Buttons students.html */
+/* #header-main header ul{
     display: flex;
 }
 
@@ -82,5 +82,56 @@
 
 #header-main header ul li.excluir a:hover{
     background: #C74141;
+} */
+
+#header-main header .buttons-acoes{
+    display: flex;
 }
 
+#header-main header button.acoes{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  
+    border-radius: 4px;
+
+    height: 4.2rem;
+    padding: 0 3rem;
+
+    background: #504EED;
+    transition: background 200ms;
+}
+
+#header-main header button.adicionar{
+    border: none;
+
+    margin-right: 2.2rem;
+    background: #504EED;
+}
+
+#header-main header button.adicionar:hover{
+    background: #4341C7;
+    cursor: pointer;
+}
+
+#header-main header button.editar{
+    border: none;
+    margin-right: 2.2rem;
+    background: #ED9A4E;
+}
+
+#header-main header button.editar:hover{
+    background: #C78241;
+    cursor: pointer;
+}
+
+#header-main header button.excluir{
+    border: none;
+    background: #ED4E4E;
+}
+
+#header-main header button.excluir:hover{
+    background: #C74141;
+    cursor: pointer;
+}

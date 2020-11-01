@@ -1,8 +1,9 @@
 #header-main{
-    max-width: 980px;
+    max-width: 1220px;
     width: 90%;
 
     margin: auto;
+
 }
 
 #header-main header{
@@ -50,6 +51,11 @@ td{
     padding: 1.6rem;
 }
 
+tr:nth-child(even) {
+
+    background: rgba(59, 65, 81, 0.06);
+}
+
 td.name-form a{
     font-weight: 600;
     text-decoration: none;
@@ -68,7 +74,7 @@ td.name-form a:hover{
 
         margin-bottom: 4rem;
     }
-    #header-main ul{
+    #header-main div.buttons-acoes{
         margin: auto; 
     }
 }
