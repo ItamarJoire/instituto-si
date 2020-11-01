@@ -1,0 +1,75 @@
+
+/* Buttons index.html */
+#page-landing #login #button-logar a{
+    color: white;
+    text-decoration: none;
+
+    border: none;
+}
+
+#page-landing #login #button-logar{
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    letter-spacing: .1em;
+  
+    border: none;
+    border-radius: 2px;
+
+    max-width: 90rem;
+    width: 70%;
+    margin: auto;
+    height: 3.2rem;
+   
+    background: #504EED;
+
+    
+    margin-top: 1rem;
+
+    transition: background 200ms;
+}
+
+#page-landing #login #button-logar:hover{
+    cursor: pointer;
+
+     background: #3533a5;
+}
+
+/* Buttons student.html */
+#header-main header ul{
+    display: flex;
+}
+
+#header-main header ul li{
+    list-style: none;
+}
+
+#header-main header ul li.acoes a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+
+    transition: background 200ms;
+}
+
+#header-main header ul li.adicionar a{
+    margin-right: 2.2rem;
+
+    background: #504EED;
+
+}
+
+#header-main header ul li.adicionar a:hover{
+    background: #4341C7;
+}
+
+#header-main header ul li.excluir a{
+    background: #ED4E4E;
+}
+
+#header-main header ul li.excluir a:hover{
+    background: #C74141;
+}
