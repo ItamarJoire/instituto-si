@@ -29,17 +29,22 @@
                 <input class="forms"
                 name="cpf" 
                 type="text" 
-                placeholder="Cpf" 
+                placeholder="Cpf"
+                autocomplete="on"
+                autofocus 
                 required>
                 <br>
-                <input class="forms"
+                <input class="forms" 
+                autocomplete="off"
                 name="senha" 
                 type="text" 
                 placeholder="Senha"
                 required>
             </form>
         
-            <button type="submit" form="send" id="button-logar"><a href="./students.html" target="blank_">Entrar</a></button>
+            <button type="submit" onsubmit="submitForm()"
+            form="send" id="button-logar"><a href="./students.html" target="blank_">Entrar</a></button>
+            
             <p><a href="#">Esqueceu sua senha?</a></p>
         </header>
 

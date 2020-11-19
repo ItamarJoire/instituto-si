@@ -21,36 +21,20 @@
         <header>
           <h1>Informação dos alunos</h1>
            
-          <!-- <ul>
-            <li class="adicionar acoes">
-              <a href="#">Adicionar</a>
-            </li>
-
-            <li class="editar acoes">
-              <a href="#">Editar</a>
-            </li>
-           
-            <li class="excluir acoes">
-              <a href="#">Excluir</a>
-            </li>
-          </ul> -->
           <div class="buttons-acoes">
-            <button 
-              class="adicionar acoes" 
-              type="button"
-              onclick="addNewField()">
+            <button class="adicionar acoes" onclick="exibe()" type="button">
               
                 Adicionar
             </button>
-
+           
             <button class="editar acoes" type="button">
               Editar
             </button>
 
-            <button class="excluir acoes" type="button">
+            <button class="excluir acoes" type="button" >
             Excluir
             </button>
-         </div>
+          </div>
         </header>
 
         <main class="secao-alunos">
@@ -61,6 +45,10 @@
               <th>Disciplinas concluídas</th>
               <th>Notas</th>
               <th>CR</th>
+              <th>
+                <label for="weekday" class="text-purple">Selecione a turma</label>
+        
+              </th>
             </tr>
             
             <tr>
@@ -69,7 +57,15 @@
               <td>Sistemas operacionais</td>
               <td>7.1</td>
               <td>8.0</td>
-              <!-- <td><a href="#"><img src="./public/images/trash.svg" alt="Excluir"></a></td> -->
+              <td>
+                <input list="weekdays" name="weekday" id="weekday" class="text-purple">
+                  <datalist id="weekdays">
+                    <option value="Turma 01"></option>
+                    <option value="Turma 02"></option>
+                    <option value="Turma 03"></option>
+                  </datalist>
+              </td>
+              <td><a onclick="confirma()" href="#"><img src="./public/images/trash.svg" alt=""></a></td>
             </tr>
 
             <tr>
@@ -78,6 +74,14 @@
               <td>Arquitetura</td>
               <td>7.1</td>
               <td>8.0</td>
+              <td>
+                <input list="weekdays" name="weekday" id="weekday" class="text-purple">
+                  <datalist id="weekdays">
+                    <option value="Turma 01"></option>
+                    <option value="Turma 02"></option>
+                    <option value="Turma 03"></option>
+                  </datalist>
+              </td>
             </tr>
 
             <tr>
@@ -86,6 +90,14 @@
               <td>Sistemas operacionais</td>
               <td>7.1</td>
               <td>8.0</td>
+              <td>
+                <input list="weekdays" name="weekday" id="weekday" class="text-purple">
+                  <datalist id="weekdays">
+                    <option value="Turma 01"></option>
+                    <option value="Turma 02"></option>
+                    <option value="Turma 03"></option>
+                  </datalist>
+              </td>
             </tr>
 
             <tr>
@@ -94,6 +106,14 @@
               <td>Sistemas operacionais</td>
               <td>7.1</td>
               <td>8.0</td>
+              <td>
+                <input list="weekdays" name="weekday" id="weekday" class="text-purple">
+                  <datalist id="weekdays">
+                    <option value="Turma 01"></option>
+                    <option value="Turma 02"></option>
+                    <option value="Turma 03"></option>
+                  </datalist>
+              </td>
             </tr>
 
             <tr>
@@ -102,18 +122,21 @@
               <td>Sistemas operacionais</td>
               <td>7.1</td>
               <td>8.0</td>
+              <td>
+                <input list="weekdays" name="weekday" id="weekday" class="text-purple">
+                  <datalist id="weekdays">
+                    <option value="Turma 01"></option>
+                    <option value="Turma 02"></option>
+                    <option value="Turma 03"></option>
+                  </datalist>
+              </td>
             </tr>
-            
-            <tr hidden class="create-one-student">
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+
         </main>
       </div>
+      <footer>
 
+      </footer>
       <script src="./public/scripts/page-students.js"></script>
   </body>
 </html>
