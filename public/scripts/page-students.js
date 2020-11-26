@@ -1,22 +1,47 @@
-// const listElement = document.querySelector('button .excluir');
+// event CONFIRM
+function opcao(){
+  var text;
+  var msg = confirm("Tem certeza que quer excluir?");
 
-function alerta() {
-    alert("Tem certeza que quer excluir a tabela?");
+  if (msg == true) {
+    text = "Excluído com sucesso!";
+    return excluir(text);
+  }else {
+    text = "Cancelado com sucesso!";
+    return excluir(text);
   }
-
-function confirma(){
-  confirm("Certeza que quer excluir?");
 }
 
+function excluir(text){
+  alert(text);
+}
+
+// event PROMPT e ALERT
 function exibe(){
-  var valor = prompt("Quantas linhas deseja adicionar?");
 
-  if(valor != null){
-    alert("Linha " + valor + " adcionada com sucesso!");
-  
+  var text;
+  var name = prompt("Qual o nome que procura na tabela?");
+
+  switch(name){
+    case "Pedro":
+      text = "Nome existe na tabela!";
+      break;
+    case "Flávio":
+      text = "Nome existe na tabela!";
+      break;
+    case "Léo":
+      text = "Nome existe na tabela!";
+      break;
+    case "Maria":
+      text = "Nome existe na tabela!";
+      break;
+    case "Gabi":
+      text = "Nome existe na tabela!";
+      break;  
+    default:
+      text = "Desculpe, mas este nome não está na tabela!";
   }
+  
+  alert(text);
 }
 
-function submitForm(){
-  alert('CPF e SENHA corretos!');
-}

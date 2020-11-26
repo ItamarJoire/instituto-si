@@ -26,7 +26,7 @@
             <h1>Seja Bem-vindo</h1>
     
             <form action="" id="send">
-                <input class="forms"
+                <input class="forms" 
                 name="cpf" 
                 type="text" 
                 placeholder="Cpf"
@@ -35,19 +35,20 @@
                 required>
                 <br>
                 <input class="forms" 
+                id="senha"
+                onkeyup="caixaAlta()"
                 autocomplete="off"
                 name="senha" 
                 type="text" 
                 placeholder="Senha"
                 required>
             </form>
-        
-            <button type="submit" onsubmit="submitForm()"
-            form="send" id="button-logar"><a href="./students.html" target="blank_">Entrar</a></button>
             
+            <button type="submit" form="send" id="button-logar"><a href="./students.html" target="_blank">Entrar</a></button>
+
             <p><a href="#">Esqueceu sua senha?</a></p>
         </header>
-
+        <script src="./public/scripts/index.js"></script>
     </div>
 
 </body>

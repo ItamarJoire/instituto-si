@@ -10,7 +10,7 @@
 #page-landing #login #button-logar{
     font-size: 1.6rem;
     font-weight: 400;
-
+    color: #fff;
     letter-spacing: .1em;
   
     border: none;
@@ -23,66 +23,10 @@
    
     background: #504EED;
 
-    
     margin-top: 1rem;
 
     transition: background 200ms;
 }
-
-#page-landing #login #button-logar:hover{
-    cursor: pointer;
-
-     background: #3533a5;
-}
-
-/* Buttons students.html */
-/* #header-main header ul{
-    display: flex;
-}
-
-#header-main header ul li{
-    list-style: none;
-    padding-top: 1.8rem;
-}
-
-#header-main header ul li.acoes a{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: white;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    border-radius: 4px;
-
-    transition: background 200ms;
-}
-
-#header-main header ul li.adicionar a{
-    margin-right: 2.2rem;
-
-    background: #504EED;
-
-}
-
-#header-main header ul li.adicionar a:hover{
-    background: #4341C7;
-}
-#header-main header ul li.editar a{
-    margin-right: 2.2rem;
-    
-    background: #ED9A4E;
-}
-
-#header-main header ul li.editar a:hover{
-    background: #C78241;
-}
-
-#header-main header ul li.excluir a{
-    background: #ED4E4E;
-}
-
-#header-main header ul li.excluir a:hover{
-    background: #C74141;
-} */
 
 #header-main header .buttons-acoes{
     display: flex;
@@ -101,6 +45,13 @@
 
     background: #504EED;
     transition: background 200ms;
+}
+#header-main header button.ver{
+    border: none;
+
+    margin-right: 2.2rem;
+
+    background: #4EED71;
 }
 
 #header-main header button.adicionar{

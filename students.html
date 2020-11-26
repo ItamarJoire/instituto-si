@@ -20,9 +20,15 @@
       <div id="header-main">
         <header>
           <h1>Informação dos alunos</h1>
-           
+          
           <div class="buttons-acoes">
-            <button class="adicionar acoes" onclick="exibe()" type="button">
+
+            <button class="ver acoes" onclick="exibe()" type="button">
+              
+              Ver
+          </button>
+
+            <button class="adicionar acoes" type="button">
               
                 Adicionar
             </button>
@@ -31,7 +37,7 @@
               Editar
             </button>
 
-            <button class="excluir acoes" type="button" >
+            <button class="excluir acoes" onclick="opcao()" type="button" >
             Excluir
             </button>
           </div>
@@ -65,7 +71,7 @@
                     <option value="Turma 03"></option>
                   </datalist>
               </td>
-              <td><a onclick="confirma()" href="#"><img src="./public/images/trash.svg" alt=""></a></td>
+              <td onclick="excluir()"><a href="#"><img src="./public/images/trash.svg" alt=""></a></td>
             </tr>
 
             <tr>
@@ -135,8 +141,9 @@
         </main>
       </div>
       <footer>
-
+       
       </footer>
+      <p id="demo"></p>
       <script src="./public/scripts/page-students.js"></script>
   </body>
 </html>
