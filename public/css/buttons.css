@@ -72,6 +72,11 @@
     background: #ED9A4E;
 }
 
+#header-main header button.ver:hover{
+    background: #48DB69;
+    cursor: pointer;
+}
+
 #header-main header button.editar:hover{
     background: #C78241;
     cursor: pointer;
@@ -85,4 +90,32 @@
 #header-main header button.excluir:hover{
     background: #C74141;
     cursor: pointer;
+}
+
+
+/* CRIE SUA CONTA */
+.form button{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: .1em;
+    
+    border: none;
+    border-radius: 2px;
+    
+    background: #504EED;
+    
+    max-width: 90rem;
+    width: 100%;
+    margin: auto;
+    height: 3.2rem;
+
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+    transition: background 200ms;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background: #4341C7;
 }

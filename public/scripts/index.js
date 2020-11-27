@@ -11,8 +11,8 @@ function mouseOut() {
   document.getElementById("button-logar").style.backgroundColor = "#504EED";
 }
 
-// event ONKEYUP
-function caixaAlta(){
-  var x = document.getElementById('senha');
-  x.value = x.value.toUpperCase();
+
+// LOAD
+window.onload = function(){
+ alert('Página carregada com sucesso!');
 }

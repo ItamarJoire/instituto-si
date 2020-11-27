@@ -16,6 +16,10 @@ function excluir(text){
   alert(text);
 }
 
+function remover(){
+  confirm('Tem certeza que deseja excluir?');
+}
+
 // event PROMPT e ALERT
 function exibe(){
 
