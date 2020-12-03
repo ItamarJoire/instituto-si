@@ -49,3 +49,13 @@ function exibe(){
   alert(text);
 }
 
+// KEYDOWN - Informativo sobre a página clicando na letra i
+
+document.addEventListener('keydown', (evento) => {
+  
+  if(evento.keyCode === 73){  
+  alert('Página com nomes dos alunos matriculados');
+  }
+});
+
+
