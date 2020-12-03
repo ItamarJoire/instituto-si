@@ -18,7 +18,10 @@ function excluir(text){
 
 function remover(){
   confirm('Tem certeza que deseja excluir?');
+  var lixo = document.getElementById('line-1');
+  lixo.remove();
 }
+
 
 // event PROMPT e ALERT
 function exibe(){
