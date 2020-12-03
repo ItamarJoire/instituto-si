@@ -67,6 +67,12 @@ td.name-form a:hover{
     text-decoration: underline;
 }
 
+.text-purple{
+    border-color: #dedde2;
+    border-radius: 2px; 
+}
+
+
 @media (max-width: 660px){
     #header-main h1{
         text-align: center;
