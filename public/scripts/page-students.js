@@ -1,25 +1,27 @@
 // event CONFIRM
+const tabela = document.querySelector('.secao-alunos table');
+
 function opcao(){
   var text;
-  var msg = confirm("Tem certeza que quer excluir?");
+  var msg = confirm("Tem certeza que quer excluir toda tabela?");
 
   if (msg == true) {
-    text = "Excluído com sucesso!";
-    return excluir(text);
+    return excluir(tabela);
   }else {
     text = "Cancelado com sucesso!";
-    return excluir(text);
+    alert(text);
   }
 }
 
-function excluir(text){
-  alert(text);
+function excluir(tabela){
+  tabela.remove();
 }
 
 function remover(){
-  confirm('Tem certeza que deseja excluir?');
-  var lixo = document.getElementById('line-1');
-  lixo.remove();
+  var linhaOne = document.getElementById('line-1');
+  alert('Linha 1 será removida');
+  linhaOne.remove();
+
 }
 
 
